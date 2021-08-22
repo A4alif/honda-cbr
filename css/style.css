@@ -1,0 +1,38 @@
+/* popins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden !important;
+}
+:root{
+    --burnt-color: #E76F51;
+}
+.btn_primary{
+    background-color: var(--burnt-color);
+}
+.btn_outline{
+    background: transparent;
+    border: 1px solid var(--burnt-color);
+}
+.btn_outline:hover {
+    color: var(--burnt-color);
+}
+.text-color{
+    color: var(--burnt-color);
+}
+.header {
+    background-color: #264653;
+}
+.navbar i {
+    color: white;
+    font-size: 25px;
+}
+.feature .feature_img_1 img,
+.feature .feature_img_3 img {
+    filter: grayscale(1) !important;
+}
